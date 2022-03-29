@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Simple Currency Converter</title>
+    <script defer src="index.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <h1>Simple Currency Converter</h1>
+
+    <div id="currencyConverterContainer" class="currency-converter-container">
+        <div id="currencyFromContainer" class="currency-from-container">
+            <label for="currencyFrom" class="currency-from-label">Select currency to convert FROM:</label>
+            <select id="currencyFrom" class="currency-from">
+                <option label="US Dollar">US Dollar</option>
+                <option label="British Pound">British Pound</option>
+                <option label="Euro">Euro</option>
+            </select>
+        </div>
+
+        <div id="currencyFromContainer" class="currency-from-container">
+            <label for="currencyTo" class="currency-to-label">Select currency to convert TO:</label>
+            <select id="currencyTo" class="currency-to">
+                <option label="US Dollar">US Dollar</option>
+                <option label="British Pound">British Pound</option>
+                <option label="Euro">Euro</option>
+            </select>
+        </div>
+    </div>
+
+    <div id="convertCurrencyButtonContainer" class="convert-currency-button-container">
+        <button id="convertCurrencyButton" class="convert-currency-button">Convert</button>
+    </div>
+
+    <div id="currencyMessage" class="currency-message"></div>
+</body>
+
+</html>

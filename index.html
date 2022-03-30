@@ -13,20 +13,41 @@
 
     <div id="currencyConverterContainer" class="currency-converter-container">
         <div id="currencyFromContainer" class="currency-from-container">
-            <label for="currencyFrom" class="currency-from-label">Select currency to convert FROM:</label>
-            <select id="currencyFrom" class="currency-from">
-                <option label="US Dollar">US Dollar</option>
-                <option label="British Pound">British Pound</option>
-                <option label="Euro">Euro</option>
+            <label for="currencyFromSelect" class="currency-from-label">Select currency to convert FROM:</label>
+            <div id="currencyFromAmountContainer" class="currency-from-amount-container">
+            <input type="text" id="currencyFromAmountInput" class="currency-from-amount-input">
+            <select id="currencyFromSelect" class="currency-from-select" disabled autocomplete="off">
+                <option label="AUD (Australian Dollar)">AUD</option>
+                <option label="BRL (Brazilian Real)">BRL</option>
+                <option label="BWP (Botswana Pula)">BWP</option>
+                <option label="CAD (Canada Dollar)">CAD</option>
+                <option label="CNY (Chinese Yuan)">CNY</option>
+                <option label="EUR (Euro)" selected>EUR</option>
+                <option label="GBP (British Pound)">GBP</option>
+                <option label="INR (Indian Rupee)">INR</option>
+                <option label="JPY (Japanese Yen)">JPY</option>
+                <option label="RUB (Russian Rouble)">RUB</option>
+                <option label="USD (USA Dollar)">USD</option>
+                <option label="ZAR (South African Rand)">ZAR</option>
             </select>
+            </div>
         </div>
 
-        <div id="currencyFromContainer" class="currency-from-container">
+        <div id="currencyToContainer" class="currency-to-container">
             <label for="currencyTo" class="currency-to-label">Select currency to convert TO:</label>
-            <select id="currencyTo" class="currency-to">
-                <option label="US Dollar">US Dollar</option>
-                <option label="British Pound">British Pound</option>
-                <option label="Euro">Euro</option>
+            <select id="currencyToSelect" class="currency-to-select">
+                <option label="AUD (Australian Dollar)">AUD</option>
+                <option label="BRL (Brazilian Real)">BRL</option>
+                <option label="BWP (Botswana Pula)">BWP</option>
+                <option label="CAD (Canada Dollar)">CAD</option>
+                <option label="CNY (Chinese Yuan)">CNY</option>
+                <option label="EUR (Euro)">EUR</option>
+                <option label="GBP (British Pound)">GBP</option>
+                <option label="INR (Indian Rupee)">INR</option>
+                <option label="JPY (Japanese Yen)">JPY</option>
+                <option label="RUB (Russian Rouble)">RUB</option>
+                <option label="USD (USA Dollar)">USD</option>
+                <option label="ZAR (South African Rand)">ZAR</option>
             </select>
         </div>
     </div>

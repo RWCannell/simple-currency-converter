@@ -14,19 +14,42 @@ body {
     background-color: #34495e;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     font-size: 24px;
     margin-top: 18px;
   }
 
-.currency-from-container, .currency-to-container {
-    padding-left: 16px;
-    padding-right: 16px;
+.currency-from-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: inherit;
+    padding-bottom: 16px;
 }
 
-.currency-from, .currency-to {
+.currency-to-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: inherit;
+}
+
+.currency-from-amount-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.currency-from-amount-input {
+    height: 24px;
+    width: 120px;
+    font-size: 24px;
+    border-radius: 8px;
+    margin-right: 16px;
+    margin-top: 2px;
+}
+
+.currency-from-select, .currency-to-select {
     height: 36px;
-    width: 200px;
+    width: 320px;
     font-size: 24px;
 }
 

@@ -24,3 +24,10 @@ The "base" is the currency to which all others are being compared. In the above 
 Not much effort has been put into the `css` styling (i.e. alignments and margins, etc), since styling is not the goal of this little project.  
 
 This repository is public and anybody should feel free to clone it and build upon it for personal improvements. For example, a beginner web developer may attempt to add a `date` field and make an API request to get the exchange rates on that particular date. Furthermore, validations can be added, such as "What would happen if someone sets a non-existent date, like 32 July?", or "What about 29 February in a year which is NOT a leap year?".  
+
+Here are two screenshots of what the application looks like`:  
+
+![alt text](euro-to-rand.png "Euro to South African Rand")  
+
+![alt text](euro-to-canadian-dollar.png "Euro to Canadian Dollar")  
+
